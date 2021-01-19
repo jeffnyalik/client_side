@@ -9,6 +9,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { RequestResetPasswordComponent } from './components/password/request-reset-password/request-reset-password.component';
 import { ResponseResetComponent } from './components/password/response-reset/response-reset.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ResponseResetComponent } from './components/password/response-reset/res
     RegisterComponent,
     ProfileComponent,
     RequestResetPasswordComponent,
-    ResponseResetComponent
+    ResponseResetComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
